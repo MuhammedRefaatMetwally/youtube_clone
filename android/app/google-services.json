@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "740181210773",
+    "project_id": "mytube-clone-f867b",
+    "storage_bucket": "mytube-clone-f867b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740181210773:android:fbcbf847147afc3e788d9c",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740181210773-nn7fonjik74e7jm450jintbbfrd3regf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapp",
+            "certificate_hash": "e57b7f2a5ca9a5f146c4c809396165d93295b307"
+          }
+        },
+        {
+          "client_id": "740181210773-ulqlsp22srh72v5qhsqemfs8fd840efo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpNcA3Z9xUFDK6ow2BG272JB75U7q-iLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740181210773-ulqlsp22srh72v5qhsqemfs8fd840efo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "740181210773-83s57qg2l6b9c68qs8ol3u2nu2foga8f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.youtubeClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

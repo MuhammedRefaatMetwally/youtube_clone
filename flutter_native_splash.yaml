@@ -1,0 +1,8 @@
+flutter_native_splash:
+
+  color: "#ffffff"
+  image: assets/images/youtube_splash_logo.png
+
+  android_12:
+    image: assets/images/youtube_splash_logo.png
+    color: "#ffffff"
