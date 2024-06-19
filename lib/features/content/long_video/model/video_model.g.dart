@@ -10,11 +10,7 @@ VideoModel _$VideoModelFromJson(Map<String, dynamic> json) => VideoModel(
       videoUrl: json['videoUrl'] as String,
       thumbnail: json['thumbnail'] as String,
       title: json['title'] as String,
-      datePublished: json["datePublished"] is Timestamp
-          ? (json["datePublished"] as Timestamp).toDate()
-          : DateTime.fromMillisecondsSinceEpoch(
-            json["datepublished"] as int,
-      ),
+      datePublished: DateTime.parse(json['datePublished'] as String),
       views: (json['views'] as num).toInt(),
       videoId: json['videoId'] as String,
       userId: json['userId'] as String,
@@ -27,7 +23,7 @@ Map<String, dynamic> _$VideoModelToJson(VideoModel instance) =>
       'videoUrl': instance.videoUrl,
       'thumbnail': instance.thumbnail,
       'title': instance.title,
-      'datePublished': instance.datePublished,
+      'datePublished': instance.datePublished.toIso8601String(),
       'views': instance.views,
       'videoId': instance.videoId,
       'userId': instance.userId,
